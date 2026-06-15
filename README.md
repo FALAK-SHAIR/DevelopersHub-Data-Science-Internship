@@ -20,6 +20,17 @@
 - **Accuracy:** 79.90%
 - **Key Insight:** Tenure and IsActiveMember are strongest churn predictors
 
+- ## Task 4 - Predicting Insurance Claim Amounts
+- **Dataset:** Medical Cost Personal Dataset (1338 rows, 7 columns)
+- **Model:** Linear Regression
+- **Key Findings:**
+  - Smoking is the strongest factor (correlation: 0.79)
+  - Age and BMI also impact charges
+- **Results:**
+  - MAE: $4,186.51
+  - RMSE: $5,799.59
+  - R² Score: 0.7833
+
 ## Tools Used
 - Python, Jupyter Notebook
 - pandas, numpy, matplotlib, seaborn, scikit-learn
