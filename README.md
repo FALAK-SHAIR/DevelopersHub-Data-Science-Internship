@@ -34,3 +34,50 @@
 ## Tools Used
 - Python, Jupyter Notebook
 - pandas, numpy, matplotlib, seaborn, scikit-learn
+
+# Task 5: Personal Loan Acceptance Prediction
+## DevelopersHub Corporation - Data Science & Analytics Internship
+
+## 📌 Task Objective
+Predict which customers are likely to accept a personal loan offer using the Bank Marketing Dataset (UCI Machine Learning Repository).
+
+---
+
+## 🔍 Approach
+
+### 1. Data Exploration
+- Analyzed key features: age, job, marital status, education, balance
+- Checked for missing values and duplicates
+- Visualized target variable distribution
+
+### 2. Data Preprocessing
+- Applied Label Encoding on categorical columns (job, marital, education, etc.)
+- Split dataset: 80% training, 20% testing
+
+### 3. Models Used
+- **Logistic Regression**
+- **Decision Tree Classifier** (max_depth=5)
+
+---
+
+## 📊 Results & Insights
+
+| Model | Accuracy |
+|-------|----------|
+| Logistic Regression | 88.40% |
+| Decision Tree | 87.62% |
+
+### Key Findings:
+- **Call duration** is the most important feature
+- **Retired and student** customers have higher acceptance rates
+- **Single customers** accept loans more than married ones
+- Customers **without existing loans** are more likely to accept
+
+---
+
+## 🛠️ Libraries Used
+- pandas, numpy
+- matplotlib, seaborn
+- scikit-learn
+
+---
