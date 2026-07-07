@@ -81,3 +81,10 @@ Predict which customers are likely to accept a personal loan offer using the Ban
 - scikit-learn
 
 ---
+
+## Task 6 - Term Deposit Prediction
+
+- **Dataset:** Bank Marketing Dataset (term deposit subscription data)
+- **Approach:** Data cleaning, EDA, classification model (Logistic Regression)
+- **Accuracy:** XX%
+- **Key Insight:** [yahan apna key finding likho]
